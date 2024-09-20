@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up | Modern Design</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Background Video -->
+    <video autoplay muted loop class="video-background">
+        <source src="video.mp4" type="video/mp4">
+        <source src="path_to_your_video.webm" type="video/webm">
+        Your browser does not support the video tag.
+    </video>
+
+    <!-- Optional Overlay -->
+    <div class="overlay"></div>
+
+    <!-- Sign-Up Form Container -->
+    <div class="signup-container">
+        <h2>Join Startup Sphere</h2>
+        <form id="signupForm">
+            <div class="input-group">
+                <label for="username">Username</label>
+                <input type="text" id="username" name="username" placeholder="Username" required>
+            </div>
+            <div class="input-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" placeholder="Email" required>
+            </div>
+            <div class="input-group">
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Password" required>
+            </div>
+            <button type="button" onclick="redirectToWebsite()">Sign Up</button>
+        </form>
+    </div>
+
+    <!-- Footer -->
+    <div class="footer">
+        &copy; 2024 Startup Sphere. All rights reserved.
+    </div>
+
+    <script src="script.js">
+    </script>
+
+</body>
+</html>
